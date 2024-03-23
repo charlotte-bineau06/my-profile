@@ -1,0 +1,115 @@
+ /* Colors and fonts */
+ 
+ body {
+ 	background-color: white; 
+ 	color: rgb(50, 50, 50);
+ 	font-family: Baskerville;
+ 	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: Times;
+}
+
+ h1 {
+ 	color: rgb(38, 96, 241);
+ 	font-size: 32px;
+}
+
+ h2 {
+ 	color: rgb(114, 151, 244);
+ 	font-size: 24px;
+ 	font-weight: lighter;
+}
+
+ a {
+ 	text-decoration: none;
+ 	color: rgb(8, 48, 150);
+}
+
+ a:hover {
+ 	color: rgb(255, 0, 203);
+}
+
+
+ /* Custom design with class (99% of your design) */
+
+ .container {
+ 	width: 700px;
+ 	margin: 40px auto;
+}
+
+ @media (max-width: 760px) {
+ 	.container {
+ 		width: 600px;
+ 	}
+}
+
+ @media (max-width: 500px) {
+ 	.container {
+ 		width: 400px;
+ 	}
+}
+ 
+ .card-white {
+ 	background-color: white;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0, 12, 255, 0.1);
+ 	border-radius: 4px;
+ 	margin: 20px 0px;
+ 	text-align: center;
+}
+
+ .btn-blue {
+ 	background-color: #259cf3;
+ 	color: white;
+ 	padding: 8px 15px;
+ 	border-radius: 4px;
+}
+
+ .btn-blue:hover {
+ 	background-color: rgb(255, 0, 203);
+ 	color: white;
+}
+
+ .list-inline {
+ 	list-style: none;
+ 	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #259cf3;
+}
+
+.list-inline i:hover {
+	font-size: 40px;
+	color: rgb(255, 0, 203);
+}
+
+/* Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#introduction h2 {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
